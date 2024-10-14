@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    color:rgb(91, 61, 139);
+    box-shadow: 0 2px 10px rgb(91, 61, 139);
+    border-radius: 6px;
+}
+
+.card {
+    padding-top: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scroll{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 49vh;
+}
+
+hr{
+    color: rgb(91, 61, 139);
+}
+
+#p1, #p2{
+    min-height: 100vh;
+   
+}
+h1{
+    font-size: 50px;
+}
+h1, h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+    text-shadow: 0 2px 10px rgb(91, 61, 139);
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
